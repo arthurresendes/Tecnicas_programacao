@@ -1,5 +1,4 @@
 import random
-print(2+2)
 '''
 + - Adição
 - = Subtração
@@ -9,9 +8,20 @@ print(2+2)
 % -> Modulo
 ** -> Exponenciação
 '''
+print(2+2)
+print(1/1)
+print(1//2 * 3)
+print(4%11)
+z = y = x = 1
+print(x, y, z, sep='*')
+x = 1 / 2 + 3 // 3 + 4 ** 2
+print(x)
+
+
 num1 = random.randint(1,101)
 num2 = random.randint(1,1001)
 print(num1,num2)
+
 
 dict = {
     "Adição": num1 + num2,         
