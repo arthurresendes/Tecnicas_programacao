@@ -14,7 +14,7 @@ print(adam_john)
 
 
 multiplica = adam * john * mary
-exponenciacao = adam ** john ** mary
+exponenciacao = adam ** john
 divisao = mary / adam // john
 modulo = mary % adam % john
 print(multiplica)
