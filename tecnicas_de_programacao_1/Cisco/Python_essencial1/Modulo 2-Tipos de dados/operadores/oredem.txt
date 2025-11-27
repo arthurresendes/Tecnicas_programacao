@@ -1,0 +1,4 @@
+() -> Parentese
+** -> Exponenciação
+*,/,//,% -> Multiplicação , divisão , divisão inteira e modulo
++ ou - -> Adição ou subtração
