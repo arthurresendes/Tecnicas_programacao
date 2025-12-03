@@ -47,3 +47,40 @@ print('arthur01'.isspace())
 # Join
 print(",".join([word] + ["Arthur"]))
 
+# Minuscula
+print("OI".lower())
+
+# Maiuscula
+print("oi".upper())
+
+# Title
+print("oI".title())
+
+# lstrip - remove espaços iniciais
+print("[" + " oi".lstrip() + "]")
+
+# replace
+print("www.jose.com".replace("jose.com", "arthur.org"))
+
+# rfind
+print("tau tau tau".rfind("ta"))
+
+# rstrip
+print("[" + "oi ".rstrip() + "]")
+
+#split
+print(word.split())
+
+# Startswith
+print(word.startswith('do'))
+if word.startswith('Ola'):
+    print("Comeca com Ola")
+else:
+    print("Nao")
+
+# strip -> tira espações em brancos iniciais e finais
+print("[" + "   oi   ".strip() + "]")
+
+# Inverte maiuscula para minusculka e vice  e versa
+print(word.swapcase())
+
