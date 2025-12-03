@@ -1,5 +1,3 @@
-
-
 def mysplit(palavra: str) -> list[str]:
     palavra_final = []
     palavra_atual = ""
