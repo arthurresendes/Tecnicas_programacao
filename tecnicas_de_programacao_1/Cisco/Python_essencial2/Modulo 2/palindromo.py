@@ -1,6 +1,6 @@
 
 
-def palindormo(palavra: str) -> str:
+def palindormo(palavra: str) -> bool:
     palavra = palavra.lower()
     palavra_invertida = palavra[::-1]
     print(palavra_invertida)
