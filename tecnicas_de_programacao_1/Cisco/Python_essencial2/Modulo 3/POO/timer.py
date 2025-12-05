@@ -47,4 +47,3 @@ timer2.prev_second()
 print(timer2)
 timer2.next_second()
 print(timer2)
-    
