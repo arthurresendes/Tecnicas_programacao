@@ -125,3 +125,37 @@ obj = Sub()
 
 print(obj.var, obj.var_left, obj.var_right, obj.fun())
 
+class Top:
+    def m_top(self):
+        print("top")
+
+
+class Middle(Top):
+    def m_middle(self):
+        print("middle")
+
+
+class Bottom(Middle):
+    def m_bottom(self):
+        print("bottom")
+
+class Left(Bottom):
+    def m_left(self):
+        print("left")
+
+class Right(Left):
+    def m_right(self):
+        print("right")
+
+
+object = Right()
+object.m_bottom()
+object.m_middle()
+object.m_top()
+object.m_left()
+object.m_right()
+print(issubclass(Left,Bottom))
+print(issubclass(Right,Bottom))
+print(issubclass(Top,Bottom))
+print(isinstance(object, Left))
+print(isinstance(object, Top))
