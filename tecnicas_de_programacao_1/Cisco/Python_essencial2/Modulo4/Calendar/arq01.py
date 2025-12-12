@@ -29,3 +29,28 @@ print("-"*80)
 print(calendar.isleap(2020)) # Verifica se é bissexto
 print("-"*80)
 print(calendar.leapdays(2010, 2025)) # Retorna quantidade de anos bissextos de 2010 ate 2024
+
+print("-"*80)
+c = calendar.Calendar(calendar.SUNDAY)
+for weekday in c.iterweekdays():
+    print(weekday, end=" ")
+
+print(end="\n")
+print("-"*80)
+c = calendar.Calendar()
+for date in c.itermonthdates(2019, 11):
+    print(date, end=" ")
+
+
+print(end="\n")
+print("-"*80)
+c = calendar.Calendar()
+for iter in c.itermonthdays(2019, 11):
+    print(iter, end=" ")
+
+
+print(end="\n")
+print("-"*80)
+c = calendar.Calendar()
+for data in c.monthdays2calendar(2025, 12):
+    print(data) # (Dia,Dia em numero de 0 até 6, sendo 0 seg e 6 dom)
